@@ -9,6 +9,8 @@ const getDailyExercise = () => {
 
   const numDias = Math.ceil((diaFin - diaInicio + 1) / (1000 * 60 * 60 * 24))
 
+  console.log(numDias)
+
   if (numDias <= 16) {
     return `Te toca ${numDias} flexiones`
   }
