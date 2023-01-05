@@ -5,7 +5,7 @@ const diaInicio = new Date("2022/12/19")
 const divId = "exercise"
 
 const getDailyExercise = () => {
-  const diaFin = new Date("2023/01/06")
+  const diaFin = new Date()
 
   const numDias = Math.ceil((diaFin - diaInicio + 1) / (1000 * 60 * 60 * 24))
 
